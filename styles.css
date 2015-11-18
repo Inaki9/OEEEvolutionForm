@@ -1,0 +1,96 @@
+body{
+	background-color: #2f2e2f;
+}
+
+.iconAndTitle{
+	text-align: center;
+	margin: 50px auto;
+}
+
+h1{
+	color: #ffffff;
+	margin: 50px auto;
+	font-family: "Calibri",Arial,Helvetica,sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.graphics{
+	margin: 100px auto;
+	width: 640px;
+	height: 400px;
+	text-align: center;
+}
+
+.disponibilidad{
+	position: relative;
+	float: left;
+	margin: 20px 20px 0;
+}
+
+.rendimiento{
+	position: relative;
+	float: left;
+	margin: 20px 20px 0;
+}
+
+.calidad{
+	position: relative;
+	float: left;
+	margin: 20px 20px 0;
+}
+
+.oee{
+	position: relative;
+	float: left;
+	margin: 20px 20px 0;
+}
+
+.slider{
+	position: absolute;
+	width: 28px;
+	height: 12px;
+	background: url("img/slider_handle.png") no-repeat;
+	cursor: n-resize;
+	left: -14px;
+}
+
+.graphicD{
+	position: absolute;
+	width: 72px;
+	height: 200px;
+	left: 100px;
+	margin:20px;
+	background-image: url("img/disponibilidad.png");
+	background-repeat: repeat-y;
+}
+
+.graphicR{
+	position: absolute;
+	width: 72px;
+	height: 200px;
+	left: 200px;
+	margin:20px;
+	background-image: url("img/rendimiento.png");
+	background-repeat: repeat-y;
+}
+
+.graphicC{
+	position: absolute;
+	width: 72px;
+	height: 200px;
+	left: 300px;
+	margin:20px;
+	background-image: url("img/calidad.png");
+	background-repeat: repeat-y;
+}
+
+.graphicO{
+	position: absolute;
+	width: 72px;
+	height: 200px;
+	left: 400px;
+	margin:20px;
+	background-image: url("img/disponibilidad.png");
+	background-repeat: repeat-y;
+}
