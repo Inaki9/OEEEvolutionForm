@@ -16,34 +16,38 @@ h1{
 }
 
 .graphics{
-	margin: 100px auto;
-	width: 640px;
-	height: 400px;
-	text-align: center;
+	position: relative;
+	margin: 20px auto;
+	width: 630px;
+	border:1px solid #fff;
 }
 
 .disponibilidad{
-	position: relative;
+	width: 100px;
+	margin: 20px;
 	float: left;
-	margin: 20px 20px 0;
+	border:1px solid #fff;
 }
 
 .rendimiento{
-	position: relative;
+	width: 100px;
+	margin: 20px;
 	float: left;
-	margin: 20px 20px 0;
+	border:1px solid #fff;
 }
 
 .calidad{
-	position: relative;
+	width: 100px;
+	margin: 20px;
 	float: left;
-	margin: 20px 20px 0;
+	border:1px solid #fff;
 }
 
 .oee{
-	position: relative;
+	width: 100px;
+	margin: 20px;
 	float: left;
-	margin: 20px 20px 0;
+	border:1px solid #fff;
 }
 
 .slider{
@@ -52,45 +56,41 @@ h1{
 	height: 12px;
 	background: url("img/slider_handle.png") no-repeat;
 	cursor: n-resize;
-	left: -14px;
+	z-index: 10;
 }
 
 .graphicD{
-	position: absolute;
+	position: relative;
 	width: 72px;
 	height: 200px;
-	left: 100px;
-	margin:20px;
+	left: 14px;
 	background-image: url("img/disponibilidad.png");
 	background-repeat: repeat-y;
 }
 
 .graphicR{
-	position: absolute;
+	position: relative;
 	width: 72px;
 	height: 200px;
-	left: 200px;
-	margin:20px;
+	left: 14px;
 	background-image: url("img/rendimiento.png");
 	background-repeat: repeat-y;
 }
 
 .graphicC{
-	position: absolute;
+	position: relative;
 	width: 72px;
 	height: 200px;
-	left: 300px;
-	margin:20px;
+	left: 14px;
 	background-image: url("img/calidad.png");
 	background-repeat: repeat-y;
 }
 
 .graphicO{
-	position: absolute;
+	position: relative;
 	width: 72px;
 	height: 200px;
-	left: 400px;
-	margin:20px;
+	left: 14px;
 	background-image: url("img/disponibilidad.png");
 	background-repeat: repeat-y;
 }
