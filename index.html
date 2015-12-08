@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-       <meta charset="utf-8" />
-       <title>OEE Evolution Form</title>
-       <link rel="stylesheet" type="text/css" href="styles.css" />
+      <meta charset="utf-8" />
+      <title>OEE Evolution Form</title>
+      <link rel="stylesheet" type="text/css" href="css/styles.css" />
+      <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>-->
+      <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="js/sliders.js"></script>
     </head>
 
     <body>
@@ -11,39 +16,125 @@
       <!-- ICONO Y TITUTLO -->
 
       <div class="iconAndTitle">
-        <img src="img/enntte-logo.png" alt="Enntte logo" >
-        <h1>OEE Evolution Form</h1>
+        <div class="icon">
+          <img src="img/enntte-logo.png" alt="Enntte logo" >
+        </div>
+        <div class="title">
+         <h1>OEE Evolution Form</h1>
+        </div>
       </div>
       
       <!-- GRAFICOS -->
 
-      <div class="graphics">graphics
+      <div class="graphics">
 
         <!-- DISPONIBILIDAD -->
 
         <div class="disponibilidad">
-          <div class="slider"></div>
-          <div class="graphicD"></div>
+          <div class="title">DISPONIBILIDAD</div>
+          <div class="graphic">
+            <ul>
+              <li class="firstLast">100-</li>
+              <li>-</li>
+              <li>80-</li>
+              <li>-</li>
+              <li>60-</li>
+              <li>-</li>
+              <li>40-</li>
+              <li>-</li>
+              <li>20-</li>
+              <li>-</li>
+              <li class="firstLast">0-</li>
+            </ul>
+            <div class="slider D"></div>
+            <div class="graphicD">
+              <div class="graphicFull D"></div>
+            </div>
+          </div>
+          <div class="counter D">
+              <input type="text" class="counterD" maxlength="4" placeholder="66">%
+          </div>
         </div>
 
         <!-- RENDIMIENTO -->
 
         <div class="rendimiento">
-          <div class="slider"></div>
-          <div class="graphicR"></div>
+          <div class="title">RENDIMIENTO</div>
+          <div class="graphic">
+            <ul>
+              <li class="firstLast">100-</li>
+              <li>-</li>
+              <li>80-</li>
+              <li>-</li>
+              <li>60-</li>
+              <li>-</li>
+              <li>40-</li>
+              <li>-</li>
+              <li>20-</li>
+              <li>-</li>
+              <li class="firstLast">0-</li>
+            </ul>
+            <div class="slider R"></div>
+            <div class="graphicR">
+              <div class="graphicFull R"></div>
+            </div>
+          </div>
+          <div class="counter R">
+            <input type="text" class="counterR" maxlength="4" placeholder="66">%
+          </div>
         </div>
 
         <!-- CALIDAD -->
 
         <div class="calidad">
-          <div class="slider"></div>
-          <div class="graphicC"></div>
+          <div class="title">CALIDAD</div>
+          <div class="graphic">
+            <ul>
+              <li class="firstLast">100-</li>
+              <li>-</li>
+              <li>80-</li>
+              <li>-</li>
+              <li>60-</li>
+              <li>-</li>
+              <li>40-</li>
+              <li>-</li>
+              <li>20-</li>
+              <li>-</li>
+              <li class="firstLast">0-</li>
+            </ul>
+            <div class="slider C"></div>
+            <div class="graphicC">
+              <div class="graphicFull C"></div>
+            </div>
+          </div>
+          <div class="counter C">
+             <input type="text" class="counterC" maxlength="4" placeholder="66">%
+          </div>
         </div>
 
         <!-- OEE -->
 
         <div class="oee">
-          <div class="graphicO"></div>
+          <div class="title O">OEE</div>
+          <div class="graphic">
+            <ul>
+              <li class="firstLast">100-</li>
+              <li>-</li>
+              <li>80-</li>
+              <li>-</li>
+              <li>60-</li>
+              <li>-</li>
+              <li>40-</li>
+              <li>-</li>
+              <li>20-</li>
+              <li>-</li>
+              <li class="firstLast">0-</li>
+            </ul>
+            <div class="graphicO">
+              <div class="graphicFull O"></div>
+            </div>
+          </div>
+          <div class="counter O">%</div>
         </div>
 
       </div>

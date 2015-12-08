@@ -1,0 +1,254 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #2f2f2f;
+	font-family: "Calibri",Arial,Helvetica,sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.iconAndTitle{
+	margin: 50px 0;
+}
+
+.icon{
+	background-color:#292929;
+	margin-top: -50px;
+	padding: 20px 0;
+	border-bottom:1px solid #222222;
+}
+
+h1{
+	margin: 50px auto;
+	font-size: 40px;
+	font-weight: normal;
+	text-shadow: 2px 2px #000;
+}
+
+div{
+	font-size: 15px;
+}
+
+.graphics{
+	position: relative;
+	margin: 20px auto;
+	width: 800px;
+	height: 300px;
+	/*border:1px solid #fff;*/
+}
+
+.disponibilidad{
+	position: relative;
+	width: 110px;
+	height: 300px;
+	margin-right: 70px;
+	float: left;
+	/*border:1px solid #fff;*/
+}
+
+.rendimiento{
+	position: relative;
+	width: 110px;
+	height: 300px;
+	margin-right: 70px;
+	float: left;
+	/*border:1px solid #fff;*/
+}
+
+.calidad{
+	position: relative;
+	width: 110px;
+	height: 300px;
+	margin-right: 70px;
+	float: left;
+	/*border:1px solid #fff;*/
+}
+
+.oee{
+	position: relative;
+	width: 110px;
+	height: 300px;
+	margin-left: 70px;
+	float: left;
+	/*border:1px solid #fff;*/
+}
+
+.title{
+	position: relative;
+	height: 44px;
+	margin-left: 15px; 
+	font-size: 22px;
+	/*border:1px solid #fff;*/
+}
+
+.title.O{
+	top: -30px;
+	font-size: 50px;
+}
+
+.disponibilidad .title{
+	left: -12px;
+	margin-left: 0px; 
+}
+
+.rendimiento .title{
+	left: -2px;
+	margin-left: 0px; 
+}
+
+.graphic{
+	position: relative;
+	height: 212px;
+	/*border:1px solid #fff;*/
+}
+
+ul{
+	position: absolute;
+	list-style-type: none;
+	padding-left: 0;
+	top: -7px;
+	/*border-right: 1px solid #fff;*/
+}
+
+li{
+	text-align: right;
+	margin: 2px 0;
+	/*border-right: 1px solid #fff;*/
+}
+
+.slider{
+	position: absolute;
+	width: 72px;
+	height: 12px;
+	left: 30px;
+	background: url("../img/slider-handler.png") no-repeat;
+	cursor: n-resize;
+	z-index: 10;
+}
+
+.slider:active{
+
+}
+
+.graphicD{
+	position: absolute;
+	width: 72px;
+	left: 28px;
+	top: 6px;
+	height: 200px;
+	border:1px solid #fff;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.graphicR{
+	position: absolute;
+	width: 72px;
+	left: 28px;
+	top: 6px;
+	height: 200px;
+	border:1px solid #fff;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.graphicC{
+	position: absolute;
+	width: 72px;
+	left: 28px;
+	top: 6px;
+	height: 200px;
+	border:1px solid #fff;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.graphicO{
+	position: absolute;
+	width: 72px;
+	left: 28px;
+	top: 6px;
+	height: 200px;
+	border:1px solid #fff;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.graphicFull{
+	position: relative;
+	border: 0px solid #fff;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.graphicFull.D{
+	background-image: url("../img/disponibilidad.png");
+	background-repeat: repeat-y;
+}
+
+.graphicFull.R{
+	background-image: url("../img/rendimiento.png");
+	background-repeat: repeat-y;
+}
+
+.graphicFull.C{
+	background-image: url("../img/calidad.png");
+	background-repeat: repeat-y;
+}
+
+.counter{
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	height: 44px;
+	font-size: 20px;
+	/*font-weight: bold; 
+	/*border:1px solid #fff;*/
+}
+
+.counter.O{
+	margin-left: 15px;
+	font-size: 40px;
+}
+
+input {
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 35px;
+	background-color: #BFBDBD;
+	color: #fff;
+    border-radius:5px;
+    width: 55px;
+    margin-right: 1px;
+}
+
+input.counterD{
+	background-image: url("../img/disponibilidad.png");
+	background-repeat: repeat-y;
+}
+
+input.counterR{
+	background-image: url("../img/rendimiento.png");
+	background-repeat: repeat-y;
+	color: #000;
+}
+
+input.counterC{
+	background-image: url("../img/calidad.png");
+	background-repeat: repeat-y;
+}
